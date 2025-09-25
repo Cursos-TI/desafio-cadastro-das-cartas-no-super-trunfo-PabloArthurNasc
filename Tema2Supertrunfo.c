@@ -12,21 +12,27 @@ int main () {
     // ===== Carta 1 =====
     printf("Insira as informações da Carta 1\n");
 
+    // Insira a inicial do seu estado
     printf("Estado: ");
     scanf(" %c", &estado1);
 
+    // Insira a inicial do seu estado e um numero 
     printf("Código: ");
     scanf("%s", codigo1);
 
+    // Insira o nome da sua cidade
     printf("Nome da Cidade: ");
     scanf("%s", cidade1);
 
+    // Insira o numero da população de sua cidade
     printf("População: ");
     scanf("%lu", &populacao1);
 
+    //Insira a area em km²
     printf("Área (em km²): ");
     scanf("%f", &area1);
 
+    //Insira o PIB 
     printf("PIB (em bilhões de reais): ");
     scanf("%f", &PIB1);
 
