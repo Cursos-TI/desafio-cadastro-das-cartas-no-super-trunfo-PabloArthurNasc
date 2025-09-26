@@ -2,8 +2,8 @@
 
 int main () {
     char estado1, estado2;
-    char codigo1[20], codigo2[20];
-    char cidade1[50], cidade2[50];
+    char codigo1[10], codigo2[10];
+    char cidade1[30], cidade2[30];
     unsigned long int populacao1, populacao2;
     float area1, area2;
     float PIB1, PIB2;
@@ -20,7 +20,7 @@ int main () {
     printf("Código: ");
     scanf("%s", codigo1);
 
-    // Insira o nome da sua cidade
+    // Insira o primeiro nome da sua cidade
     printf("Nome da Cidade: ");
     scanf("%s", cidade1);
 
@@ -32,10 +32,11 @@ int main () {
     printf("Área (em km²): ");
     scanf("%f", &area1);
 
-    //Insira o PIB 
-    printf("PIB (em bilhões de reais): ");
+    //Insira o PIB da sua cidade
+    printf("PIB (reais): ");
     scanf("%f", &PIB1);
 
+    // Insira o numero de pontos turisticos que sua cidade possui
     printf("Número de pontos turísticos: ");
     scanf("%d", &turistico1);
 
@@ -60,7 +61,7 @@ int main () {
     printf("Área (em km²): ");
     scanf("%f", &area2);
 
-    printf("PIB (em bilhões de reais): ");
+    printf("PIB (em reais): ");
     scanf("%f", &PIB2);
 
     printf("Número de pontos turísticos: ");
